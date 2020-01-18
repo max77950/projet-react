@@ -1,6 +1,7 @@
 import React from 'react';
 import './components.css';
-import loupe from '/Users/maxencederoeck/Projects/69-projet-react/69projet/src/icone/loupe.png';
+import IconButton from '@material-ui/core/IconButton';
+
 import SearchIcon from '@material-ui/icons/Search';
 
 
@@ -18,24 +19,14 @@ export default function BasicTextFields() {
   <input id="inbox"type="text" name="recherche" placeholder="Recherche"/>
 
   
-    <input type="submit"id="searchbutton">
+    
 
-    <SearchIcon/>
+      <IconButton >
+        <SearchIcon id="loupe"/>
+      </IconButton>
 
-
-    </input>
-  
-  
-  
 
   
-
-  
-  
-
-  
-  
-
 
 </form>
 

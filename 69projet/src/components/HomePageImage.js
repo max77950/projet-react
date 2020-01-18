@@ -1,6 +1,6 @@
 import React from 'react';
 import './components.css';
-import bg from '/Users/maxencederoeck/Projects/69-projet-react/69projet/src/image/background.png';
+import bg from '/Users/maxencederoeck/Documents/GitHub/projet-react/69projet/src/image/background.png';
 
 
 
