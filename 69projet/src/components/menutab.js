@@ -12,6 +12,8 @@ import  Component from 'react';
 import Form from 'react-bootstrap/Form'
 import FormControl from 'react-bootstrap/FormControl'
 import Button from 'react-bootstrap/Button'
+import IconButton from '@material-ui/core/IconButton'
+import CircleButton from '@material-ui/icons/AccountCircle'
 
 
 
@@ -35,14 +37,13 @@ export default function SimpleTabs() {
 
     <div>
 
-    <Navbar bg="light" variant="dark" id="header">
+    <Navbar  variant="dark" id="header">
     <Navbar.Brand href="#home">
     
     <img id="img"
          src={logo}
          
-      width="70"
-      height="70"
+      
       className="d-inline-block align-top"
          alt="React Bootstrap logo"       />  
     
@@ -58,16 +59,19 @@ export default function SimpleTabs() {
      <label id="scientifique">Scientifique</label> 
     </Navbar.Brand>
 
-    <Nav className="mr-auto">
+    <Nav className="mr-auto" variant="pills" >
       <Nav.Link href="#home" className="mr-auto">Ajout</Nav.Link>
       <Nav.Link href="#features" className="mr-auto">Connexion</Nav.Link>
       <Nav.Link href="#pricing" className="mr-auto">Contact</Nav.Link>
     </Nav>
     <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-primary">Search</Button>
+    <IconButton >
+        <CircleButton id="loupe"/>
+      </IconButton>
     </Form>
     </Navbar>
+
+
 
 
 

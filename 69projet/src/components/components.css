@@ -85,7 +85,9 @@ body, html {
 
     #loupe {
     
-       background-size: large;
+    
+       height: 7%;
+       width: 20%;
        
     
         color: white;
@@ -141,9 +143,11 @@ body, html {
     #img{
 
         position: fixed;
+        height: 7%;
+        width: 5%;
 
         top:0;
-        padding-right: 20px;
+        padding-right: 0px;
 
 
     }
@@ -167,9 +171,9 @@ body, html {
     #sep{
         position: fixed;
         border-left: 2px solid white;
-        height: 7.6%;
+        height: 7%;
         top :0;
-        margin-left: 80px ;
+        margin-left: 105px ;
         
         
 
@@ -213,8 +217,12 @@ body, html {
     .mr-auto{
 
         margin-left: 30px;
+        border: none;
+        background-color: transparent;
         color: white;
         font-size: 32px;
+        
 
 
     }
+   
