@@ -138,10 +138,22 @@ body, html {
 
     }
 
+    #img{
+
+        position: fixed;
+
+        top:0;
+        padding-right: 20px;
+
+
+    }
+
+    
+
     #header {
         float: left;
 
-        position: absolute;
+        position: fixed;
         top:0 ;
 	left:0;
     background-color:#003055;
@@ -153,16 +165,18 @@ body, html {
     }
 
     #sep{
-        float: left;
-
-        position: absolute;
+        position: fixed;
+        border-left: 2px solid white;
+        height: 7.6%;
+        top :0;
+        margin-left: 80px ;
         
-    background-color:white;
-    border: solid white;
-    height: 100%;
-    width: 1px;
+        
+
+        
+        
     
-    display: flex;
+    
 
 
     }
@@ -173,9 +187,9 @@ body, html {
 
 
 
-        padding-top: 0.5%;
+        margin-top: 0%;
         font-size: 40px;
-        padding-left: 5px;
+        margin-left: 100px;
 
         
         color: white;
@@ -186,12 +200,21 @@ body, html {
 
     #scientifique{
 
-        padding-top: 0.5%;
+        margin-top: 0%;
         font-size: 40px;
-        padding-left: 5px;
+        margin-left: 5px;
 
         
         color: #E18100;
+
+
+    }
+
+    .mr-auto{
+
+        margin-left: 30px;
+        color: white;
+        font-size: 32px;
 
 
     }
