@@ -60,13 +60,13 @@ export default function SimpleTabs() {
     </Navbar.Brand>
 
     <Nav className="mr-auto" variant="pills" >
-      <Nav.Link href="#home" className="mr-auto">Ajout</Nav.Link>
-      <Nav.Link href="#features" className="mr-auto">Connexion</Nav.Link>
+      <Nav.Link href="#ajout" className="mr-auto" color="secondary">Ajout</Nav.Link>
+      <Nav.Link href="#features" className="mr-auto" disabled="true">Connexion</Nav.Link>
       <Nav.Link href="#pricing" className="mr-auto">Contact</Nav.Link>
     </Nav>
     <Form inline>
-    <IconButton >
-        <CircleButton id="loupe"/>
+    <IconButton id="buttonaccount">
+        <CircleButton id="account"/>
       </IconButton>
     </Form>
     </Navbar>

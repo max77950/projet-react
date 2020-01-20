@@ -51,7 +51,7 @@ body, html {
     width: 640px;
     border-radius: 24px;
     font-size: 30px;
-    border-right-width: 20px;
+    
     display: flex;
     padding-left: 20px;
     }
@@ -84,15 +84,54 @@ body, html {
     
 
     #loupe {
+        
     
-    
-       height: 7%;
-       width: 20%;
+       font-size:46px;
+       
        
     
         color: white;
         
     }
+   #buttonloupe.MuiIconButton-root
+      {
+
+    outline:none;
+    
+
+    padding:0;
+    
+    
+   }
+   #buttonloupe.MuiButtonBase-root{
+
+    margin-left:10px;
+   }
+
+   #account{
+
+    font-size:46px;
+       
+       
+    
+        color: white;
+   }
+
+   #buttonaccount.MuiIconButton-root{
+
+    outline:none;
+    
+
+    padding:0;
+    
+    
+   
+
+
+   }
+
+    
+    
 
     #pp{
 
@@ -216,13 +255,19 @@ body, html {
 
     .mr-auto{
 
-        margin-left: 30px;
+        margin-left: 40px;
         border: none;
         background-color: transparent;
+        
         color: white;
         font-size: 32px;
         
 
 
     }
+
+    .mr-auto.nav-pills .nav-link.active{
+    background-color:#E18100;
+    color: white;
+}
    
